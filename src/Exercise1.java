@@ -1,6 +1,6 @@
 /**
  * Week 2, Exercise 1.
- * @author INSERT YOUR NAME HERE
+ * @author Mohammed Faiz Iqbal
  */
 public class Exercise1 {
 
