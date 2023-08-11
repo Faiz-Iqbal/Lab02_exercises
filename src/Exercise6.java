@@ -1,26 +1,32 @@
 /**
  * Week 2, Exercise 6.
- * @author INSERT YOUR NAME HERE
+ * 
+ * @author Mohammed Faiz Iqbal
  */
+
 public class Exercise6 {
-
-	private static final String Final = null;
-
+	
+	static final int DAYS_IN_YEAR = 365;
+	static final int HOURS_IN_DAY = 24;
+	static final int MINUTES_IN_HOUR = 60;
+	
 	public static void main(String[] args) {
-		/* First, copy across the code from your
-		   solution to Exercise 4. */
+		/*
+		 * First, copy across the code from your solution to Exercise 4.
+		 */
 		
-		// Assign variables
+		// Time variable
 		int age = 18;
-		final int Days = 365*age;
-		final int Hours = 24*Days;
-		final int Minutes = 60*Hours;
 		
+		// Convert values
+		int days = age * DAYS_IN_YEAR;
+		int hours = days * HOURS_IN_DAY;
+		int minutes = hours * MINUTES_IN_HOUR;
 		
 		// Print them out
-		System.out.println("Days: " + Days);
-		System.out.println("Hours: " + Hours);
-		System.out.println("Minutes: " + Minutes);
+		System.out.println(days);
+		System.out.println(hours);
+		System.out.println(minutes);
+		
 	}
-
 }
