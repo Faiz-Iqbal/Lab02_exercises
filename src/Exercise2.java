@@ -6,19 +6,19 @@ public class Exercise2 {
 
 	public static void main(String[] args) {
 		// Declare variables
-		int Days;
-		int Hours;
-		int Minutes;
+		int daysInAYear;
+		int hoursInADay;
+		int minutesInAnHour;
 		
 		// Assign variables
-		Days = 365;
-		Hours = 24;
-		Minutes = 60;
+		daysInAYear = 365;
+		hoursInADay = 24;
+		minutesInAnHour = 60;
 		
 		// Print them out
-		System.out.println("Days in a Year: " + Days);
-		System.out.println("Hours in a Day: " + Hours);
-		System.out.println("Minutes in an Hour: " + Minutes);
+		System.out.println("Days in a Year: " + daysInAYear);
+		System.out.println("Hours in a Day: " + hoursInADay);
+		System.out.println("Minutes in an Hour: " + minutesInAnHour);
 	}
 
 }

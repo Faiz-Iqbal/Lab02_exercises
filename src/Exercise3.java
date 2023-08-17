@@ -19,22 +19,6 @@ public class Exercise3 {
 
 		// print out the result to the user
 		System.out.println("In Farenheit, " + ctemp + " Celcius is " + ftemp + " degrees");
-
-//		Scanner scan = new Scanner(System.in);
-//		
-//		System.out.println("Please enter a temperature:");
-//		double TempC = scan.nextDouble();
-//		double TempFaren = FarenConvert(TempC);
-//		
-//		System.out.println("Tempreture in Celcius: " + TempC + "C");
-//		System.out.print("Tempreture in Farenheit: " + TempFaren + "F");
-//		
-//	}
-//	
-//	public static double FarenConvert(double Temp) {
-//		double TempF = Temp;
-//		TempF = (TempF * 9/5) + 32;
-//		return TempF;
 	}
 
 }
